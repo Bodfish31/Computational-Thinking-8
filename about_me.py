@@ -1,0 +1,15 @@
+print ("hello. My name is Abby")
+name = input("Whats yours?")
+print (f"hello {name}!")
+print ("want to here about me?")
+answer = input ()
+if answer == "yes" or answer == "sure" or answer == "":
+    print ("I am 13 years old")
+    print ("I live in Seattle, Washington")
+    print ("I go to Seattle Academy of Arts and Sciences, also known as SAAS")
+    print ("I LOVE cats")
+    print ("I am a black belt in karate")
+    print ("I recently had my bat mitzvah")
+    print ("I have an older sister named Elsa")
+elif answer != "yes" or answer != "sure" or answer != "":
+    print ("OK... fine. this program is now usless.")

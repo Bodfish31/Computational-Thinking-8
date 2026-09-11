@@ -27,4 +27,8 @@ print("\n\n")
                                                                                           
                                   
 print("Now it's your turn:")
-print("Find this line (line 30) in the welcome_to_ct8.py file, then change the message to say a fact about you.")                                  
+print("I really like dogs")                                  
+print("I have my black belt in karate")
+print("another fact is that I have a sister who is 3 and a half years older than me")
+name = input ("please enter name here: ")
+print (f"Hello {name}!")
