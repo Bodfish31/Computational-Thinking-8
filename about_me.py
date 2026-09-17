@@ -1,9 +1,9 @@
 print ("hello. My name is Abby")
 name = input("Whats yours?")
 print (f"hello {name}!")
-print ("want to here about me?")
+print ("want to hear about me?")
 answer = input ()
-if answer == "yes" or answer == "sure" or answer == "":
+if answer == "yes" or answer == "sure" or answer == "" or answer == "sure":
     print ("I am 13 years old")
     print ("I live in Seattle, Washington")
     print ("I go to Seattle Academy of Arts and Sciences, also known as SAAS")
