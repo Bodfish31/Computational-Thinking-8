@@ -445,6 +445,7 @@ def academy2 ():
     print ("You smile, knowing you made the right choice.")
     print ("")
     print ("The two days slowly pass. Then, finally, the time comes to travel to the academy where your studies will begin.")
+    print ("You sudenly get blown up. Oh well.")
     notdone ()
 
 def academy1 ():
