@@ -43,27 +43,27 @@ for i in range (100):
     if question == "A" or question == "a" or question == "A." or question == "a." :
         print ("")
         if strength == 5:
-            hit = random.choice ({4,4,5,5,5,6,6,7})
+            hit = random.choice ([4,4,5,5,5,6,6,7])
         if strength == 6:
-            hit = random.choice ({5,5,6,6,6,7,7,8})
+            hit = random.choice ([5,5,6,6,6,7,7,8])
         if strength == 7:
-            hit = random.choice ({6,6,7,7,7,8,8,9})
+            hit = random.choice ([6,6,7,7,7,8,8,9])
         if strength == 8:
-            hit = random.choice ({7,7,8,8,8,9,9,10})
+            hit = random.choice ([7,7,8,8,8,9,9,10])
         if strength == 9:
-            hit = random.choice ({8,8,9,9,9,10,10,11})
+            hit = random.choice ([8,8,9,9,9,10,10,11])
         if strength == 10:
-            hit = random.choice ({9,9,10,10,10,11,11,12})
+            hit = random.choice ([9,9,10,10,10,11,11,12])
         if strength == 11:
-            hit = random.choice ({10,10,11,11,11,12,12,13})
+            hit = random.choice ([10,10,11,11,11,12,12,13])
         if strength == 12:
-            hit = random.choice ({11,11,12,12,12,13,13,14})
+            hit = random.choice ([11,11,12,12,12,13,13,14])
         if strength == 13:
-            hit = random.choice ({12,12,13,13,13,14,14,15})
+            hit = random.choice ([12,12,13,13,13,14,14,15])
         if strength == 14:
-            hit = random.choice ({13,13,14,14,14,15,15,16})
+            hit = random.choice ([13,13,14,14,14,15,15,16])
         if strength == 15:
-            hit = random.choice ({14,14,15,15,15,16,16,17})
+            hit = random.choice ([14,14,15,15,15,16,16,17]  )
         enemy -= hit
         print (f"You did {hit} damage! They only have {enemy} health left!")
     elif question == "B" or question == "b" or question == "B." or question == "b." :
