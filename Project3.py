@@ -991,3 +991,9 @@ else:
         tribe += .5
 question2 ()
 ending ()
+
+
+
+
+
+
