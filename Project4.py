@@ -574,7 +574,7 @@ for i in range (5):
                         print ("")
                         strength += 1
                         print ("You have increased your damage!")
-                if monster = 10:
+                if monster == 10:
                     print ("")
                     print ("You get another choice!")
                     print (f"You have {health} health!")
