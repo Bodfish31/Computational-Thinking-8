@@ -6,9 +6,10 @@ strength = 5
 num = 0
 enemy = 0
 power = 0
-monster = 0
+monstera = 0
 defense = 0
 boss = 1
+defender = 0
 print ("Hello user! Today you will be playing a turn-based game!")
 print ("")
 print ("In a land called... sigh.")
@@ -322,17 +323,17 @@ for i in range (5):
                 defense = 0
 # this is the second 5 battles with a demon instead of an orc. lines 292 - 601. there's a for loop inside but I dont think I need to explain that
 for i in range (5):
-    if monster == 0:
-        monster += 5
-    elif monster == 5:
-        monster = 6
-    elif monster == 6:
-        monster = 7
-    elif monster == 7:
-        monster = 8
-    elif monster == 9:
-        monster = 10
-    elif monster == 10:
+    if monstera == 0:
+        monstera += 5
+    elif monstera == 5:
+        monstera = 6
+    elif monstera == 6:
+        monstera = 7
+    elif monstera == 7:
+        monstera = 8
+    elif monstera == 9:
+        monstera = 10
+    elif monstera == 10:
         print ("")
         print ("This is the last of the enemies before the boss!")
         print ("You get to upgrade twice this time!")
@@ -574,7 +575,7 @@ for i in range (5):
                         print ("")
                         strength += 1
                         print ("You have increased your damage!")
-                if monster == 10:
+                if monstera == 10:
                     print ("")
                     print ("You get another choice!")
                     print (f"You have {health} health!")
@@ -654,7 +655,7 @@ print ("")
 print ("Here he is! Oof he is a beast!")
 enemy = random.choice ([60,61,62,63,64,65,66,67,68,69,70])
 est = random.choice ([13,14,15,16,17,18])
-print (f"The orc has {enemy} health!")
+print (f"The boss has {enemy} health!")
 print (f"By the way you have {health} health!")
 # this is the boss fight. lines 612 - 830. 
 for i in range (100):
